@@ -1,2 +1,3 @@
-00000000: MOVEC (regx = 0x8, regy = 0x20) 10 01 0A 1A 10 02 10 03 0D 02 0D 03 05 03
-00000010: 05 03 05 03 05 03 0F 32 0E 12 11 02 07 E6 0B 00
+MOVC (64) IN (rx = 01) JFE (26) IN (rx = 2) IN (rx = 3) SUB (rx = 2, ry = 0) SUB (rx = 3, ry = 0) LSL (rx = 3)
+LSL (rx = 3) LSL (rx = 3) LSL (rx = 3) OR (rx = 2, ry = 3) XOR (rx = 1, ry = 2) OUT (rx = 2) JMP (-26) OUT
+64 81 8 65 0 0 0 0 0 0 0 0 0 0 0 0
